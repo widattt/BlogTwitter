@@ -21,7 +21,7 @@ export const createPost = ({content, user}) => async (dispatch) => {
     try {
         const response = await axios({
             method: 'post',
-            url: 'api/v1/post/',
+            url: '/api/v1/post/',
             data: { content },
             headers: {
                 Authorization: `Bearer ${token}`
@@ -45,7 +45,7 @@ export const updatePost = (dataUpdate) => async (dispatch) => {
         const token = localStorage.getItem('token')
         const response = await axios({
             method: 'put',
-            url: `api/v1/post/${id}`,
+            url: `/api/v1/post/${id}`,
             data: { content },
             headers: {
                 Authorization: `Bearer ${token}`
