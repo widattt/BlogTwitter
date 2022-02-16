@@ -69,7 +69,7 @@ export const deletePost = ({id}) => async (dispatch) => {
         const token = localStorage.getItem('token')
         const response = await axios({
             method: 'delete',
-            url: `api/v1/post/${id}`,
+            url: `/api/v1/post/${id}`,
             headers: {
                 Authorization: `Bearer ${token}`
             }
