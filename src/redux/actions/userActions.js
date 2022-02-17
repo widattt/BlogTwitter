@@ -67,7 +67,7 @@ export const getCurrentUser = () => async (dispatch) => {
         const token = localStorage.getItem('token')
         const response = await axios({
             method: 'get',
-            url: '/api/v1/auth/',
+            url: '/api/v1/auth',
             headers: {
                 Authorization: `Bearer ${token}`
             }
