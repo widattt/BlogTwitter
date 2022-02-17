@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/widattt/BlogTwitter/static/css/main.0530a657.css",
-    "main.js": "/widattt/BlogTwitter/static/js/main.b293d393.js",
+    "main.js": "/widattt/BlogTwitter/static/js/main.5e7bbd33.js",
     "index.html": "/widattt/BlogTwitter/index.html",
     "main.0530a657.css.map": "/widattt/BlogTwitter/static/css/main.0530a657.css.map",
-    "main.b293d393.js.map": "/widattt/BlogTwitter/static/js/main.b293d393.js.map"
+    "main.5e7bbd33.js.map": "/widattt/BlogTwitter/static/js/main.5e7bbd33.js.map"
   },
   "entrypoints": [
     "static/css/main.0530a657.css",
-    "static/js/main.b293d393.js"
+    "static/js/main.5e7bbd33.js"
   ]
 }
