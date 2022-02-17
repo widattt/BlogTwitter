@@ -6,7 +6,7 @@ export const login = (data) => async (dispatch) => {
     try {
         const response = await axios({
             method: 'post',
-            url: 'https://projectblogmern.herokuapp.com/api/v1/auth/login',
+            url: '/api/v1/auth/login',
             data: data,
             headers: {
                 'Content-Type': 'application/json;charset=utf-8',
