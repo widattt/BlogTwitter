@@ -6,7 +6,7 @@ export const login = (data) => async (dispatch) => {
     try {
         const response = await axios({
             method: 'post',
-            url: '/api/v1/auth/login',
+            url: 'https://projectblogmern.herokuapp.com/api/v1/auth/login',
             data: data,
         })
 
@@ -32,7 +32,7 @@ export const register = (data) => async (dispatch) => {
     try {
         const response = await axios({
             method: 'post',
-            url: '/api/v1/auth/register',
+            url: 'https://projectblogmern.herokuapp.com/api/v1/auth/register',
             data: data
         })
 
@@ -67,7 +67,7 @@ export const getCurrentUser = () => async (dispatch) => {
         const token = localStorage.getItem('token')
         const response = await axios({
             method: 'get',
-            url: '/api/v1/auth',
+            url: 'https://projectblogmern.herokuapp.com/api/v1/auth',
             headers: {
                 Authorization: `Bearer ${token}`
             }

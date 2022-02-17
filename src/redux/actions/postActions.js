@@ -21,7 +21,7 @@ export const createPost = ({content, user}) => async (dispatch) => {
     try {
         const response = await axios({
             method: 'post',
-            url: '/api/v1/post',
+            url: 'https://projectblogmern.herokuapp.com/api/v1/post',
             data: { content },
             headers: {
                 Authorization: `Bearer ${token}`
@@ -45,7 +45,7 @@ export const updatePost = (dataUpdate) => async (dispatch) => {
         const token = localStorage.getItem('token')
         const response = await axios({
             method: 'put',
-            url: `/api/v1/post/${id}`,
+            url: `https://projectblogmern.herokuapp.com/api/v1/post/${id}`,
             data: { content },
             headers: {
                 Authorization: `Bearer ${token}`
@@ -69,7 +69,7 @@ export const deletePost = ({id}) => async (dispatch) => {
         const token = localStorage.getItem('token')
         const response = await axios({
             method: 'delete',
-            url: `/api/v1/post/${id}`,
+            url: `https://projectblogmern.herokuapp.com/api/v1/post/${id}`,
             headers: {
                 Authorization: `Bearer ${token}`
             }
