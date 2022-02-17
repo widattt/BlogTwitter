@@ -8,9 +8,6 @@ export const login = (data) => async (dispatch) => {
             method: 'post',
             url: '/api/v1/auth/login',
             data: data,
-            headers: {
-                'Content-Type': 'application/json;charset=utf-8',
-            }
         })
 
         
