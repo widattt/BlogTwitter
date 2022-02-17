@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/widattt/BlogTwitter/static/css/main.0530a657.css",
+    "main.js": "/widattt/BlogTwitter/static/js/main.b293d393.js",
+    "index.html": "/widattt/BlogTwitter/index.html",
+    "main.0530a657.css.map": "/widattt/BlogTwitter/static/css/main.0530a657.css.map",
+    "main.b293d393.js.map": "/widattt/BlogTwitter/static/js/main.b293d393.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0530a657.css",
+    "static/js/main.b293d393.js"
+  ]
+}
