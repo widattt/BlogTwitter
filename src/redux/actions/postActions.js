@@ -21,7 +21,7 @@ export const createPost = ({content, user}) => async (dispatch) => {
     try {
         const response = await axios({
             method: 'post',
-            url: '/api/v1/post/',
+            url: '/api/v1/post',
             data: { content },
             headers: {
                 Authorization: `Bearer ${token}`
